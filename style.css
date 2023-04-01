@@ -1,0 +1,55 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(198, 209, 206);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+.resultBox{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(198, 209, 206);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+#operator{
+    padding: 5px;
+}
+#firstNum{
+    padding: 5px;
+}
+#secondNum{
+    padding: 5px;
+}
+#resultInput{
+    padding: 7px;
+}
+#submitBtn{
+    background-color: rgb(30, 31, 36);
+    color: white;
+    border: none;
+    padding: 30px;
+    margin-left: 63px;
+
+}
+#submitBtn:hover{
+    background-color: rgb(238, 255, 0);
+    color: black;
+}
+#resetBtn{
+    background-color: rgb(30, 31, 36);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    float: right;
+}
+#resetBtn:hover{
+    background-color: rgb(238, 255, 0);
+    color: black;
+}
